@@ -4,6 +4,7 @@ A squad of Remote Controlled(RC) Robots are to be operated by ACME Co., in their
 
 A robot's position and location is represented by a combination of x and y coordinates and a letter representing one of the four cardinal compass points. The warehouse is divided up into a grid to simplify navigation. An example position might be 0, 0, N, which means the robot is in the bottom left corner and facing North.
 
+
 In order to control a robot, an engineer sends a simple string of letters. The possible letters are 'L', 'R' and 'M'. 'L' and 'R' makes the robot spin 90 degrees left or right respectively, without moving from its current spot. 'M' means move forward one grid point, and maintain the same heading.
 
 Assume that the square directly North from (x, y) is (x, y+1).
